@@ -1,0 +1,135 @@
+.ag-cell,
+.ag-header-cell-label,
+.ag-cell-label-container,
+.ag-header-cell-text {
+    text-align: center !important;
+    font-size: 24px;
+    line-height: 70px !important;
+    width: 100%;
+    color: white;
+    filter: drop-shadow(5px 5px 10px #222);
+}
+
+.ag-body-horizontal-scroll, .ag-scroller-corner, .ag-center-cols-container{
+    background-color: #40bf40;
+}
+
+.ag-body-horizontal-scroll-viewport{
+    margin-top: -2px;
+}
+
+.ag-header-cell-text {
+    filter: drop-shadow(1px 1px 3px #222);
+}
+
+.ag-theme-alpine .btn-danger {
+    background: linear-gradient(to bottom right, #ff0000 0%, #ff99cc 100%);
+}
+
+.ag-theme-alpine .btn-primary {
+    background: linear-gradient(to bottom right, #0d6efd 0%, #33ccff 100%);
+}
+
+.ag-theme-alpine .btn-warning {
+    background: linear-gradient(to bottom right, #fd790d 0%, #ff9633 100%);
+    margin-top: 0px !important;
+}
+
+.subtitolpanell {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.ag-theme-alpine {
+    border: 5px solid #006600;
+    border-radius: 20px;
+}
+
+.ag-root-wrapper {
+    border-radius: 15px;
+}
+
+.ag-header-row{
+    background-color: #339933;
+}
+
+.ag-row-even {
+    background-color: #40bf40 !important;
+}
+
+.ag-row-odd, .ag-center-cols-viewport {
+    background-color: #8cd98c !important;
+}
+
+.ag-row * {
+    font-size: 30px;
+}
+
+.altura {
+    min-height: 100vh;
+}
+
+.red {
+    color: red !important;
+    margin-top: 0px !important;
+    padding: 20px;
+    font-size: 5vmin !important;
+}
+
+.altura .btn {
+    height: 50px;
+    line-height: 22px !important;
+    margin-bottom: 10px;
+}
+
+.ag-cell-inline-editing .ag-cell-editor .ag-wrapper{
+    color: black !important;
+}
+
+.ag-theme-alpine .ag-paging-panel {
+    background-color: #339933;
+    color: white !important;
+}
+.ag-paging-page-summary-panel div span {
+    color: white !important;
+}
+
+.ag-root ::-webkit-scrollbar {
+    border-radius: 10px;
+}
+.ag-root ::-webkit-scrollbar-button {
+    background: #40bf40;
+}
+.ag-root ::-webkit-scrollbar-track-piece {
+    background: #40bf40;
+}
+.ag-root ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to left, #ffffff 0%, #8cd98c 100%);
+    border-radius: 10px;
+}
+
+.generalpanell {
+    background-image: url('../../Imatges/fondopanell.jpg');
+    background-attachment: fixed;
+}
+
+.generalpanell p, .generalpanell h1 {
+    color: black;
+}
+
+.aabbcc {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+}
+
+.divFotoPanel {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.divFotoPanel * {
+    text-align: center !important;
+}

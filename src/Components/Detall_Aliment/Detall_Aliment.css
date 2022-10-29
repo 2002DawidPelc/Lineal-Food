@@ -1,0 +1,366 @@
+.taulaCalories {
+    background-color: rgba(255, 255, 255, 0.568);
+    border: 5px solid black !important;
+    font-size: 30px;
+}
+
+.textEsquerra {
+    text-align: left;
+}
+
+.textCentre {
+    text-align: center;
+}
+
+.imgDetallAliment {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.borde {
+    border: 3px solid black !important;
+}
+
+.restaurant {
+    border: none;
+}
+
+.numero {
+    text-align: right;
+    width: 30%;
+}
+
+.text {
+    width: 55%;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.685);
+    border: 3px solid black;
+    width: 100%;
+    font-size: 20px;
+}
+
+table>tr:nth-of-type(2n+1),
+.gris {
+    background-color: rgba(53, 53, 53, 0.199) !important;
+}
+
+table>tr>td {
+    padding: 10px;
+}
+
+.textEsquerra>hr {
+    background-color: black;
+}
+
+.containerFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFoto img {
+    max-width: 70% !important;
+    -webkit-filter: drop-shadow(10px 10px 10px #222);
+    filter: drop-shadow(10px 10px 10px #222);
+}
+
+.colTitol {
+    margin-top: 0 !important;
+}
+
+.containerTitol>.row:nth-of-type(2) {}
+
+@media (max-width: 1450px) {
+
+    select.porcions,
+    .infonutri {
+        margin-top: 10px !important;
+    }
+
+    .ocult {
+        display: block !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .containerFoto img {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .allargar {
+        min-width: 390px;
+    }
+
+    .iconaFav,
+    .iconaGuardar,
+    .logo {
+        width: 12vw !important;
+    }
+
+    .nutriScore {
+        width: 18vw !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .containerTitol>.row:nth-of-type(2) {
+        margin-top: 60px;
+    }
+
+    .containerFoto {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 850px) {
+    .allargar {
+        min-width: 280px;
+    }
+
+    .iconaFav,
+    .iconaGuardar,
+    .logo {
+        width: 16vw !important;
+    }
+
+    .nutriScore {
+        width: 22vw !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .containerTitol>.row:nth-of-type(2) {
+        margin-top: 40px;
+    }
+
+    .containerTaula>h3 {
+        margin-top: 15px;
+    }
+
+    .allargar {
+        min-width: 200px;
+    }
+
+    .iconaFav,
+    .iconaGuardar,
+    .logo {
+        width: 34vw !important;
+    }
+
+    .nutriScore {
+        width: 34vw !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .allargar {
+        min-width: 300px;
+    }
+
+    .logo {
+        width: 60vw !important;
+        margin-bottom: 30px;
+    }
+
+    .nutriScore {
+        width: 60vw !important;
+        margin-bottom: 30px;
+    }
+
+    .iconaFav,
+    .iconaGuardar {
+        width: 10vw;
+    }
+
+    .encoger {
+        min-width: 130px;
+    }
+
+    .encoger div {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .encoger div h1 {
+        display: inline-block;
+        line-height: 30px;
+        vertical-align: middle;
+        text-align: center !important;
+        width: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .containerFoto,
+    .containerTaula {
+        width: 100%;
+    }
+
+    .containerFoto {
+        min-height: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.containerTitol>.row:nth-of-type(1)>.col>h1 {
+    text-align: center;
+    font-size: 80px !important;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 420px) {
+    select.porcions {
+        max-width: 210px !important;
+        font-size: 16px !important;
+    }
+
+    .infonutri {
+        font-size: 16px !important;
+        width: 50px !important;
+    }
+
+    .containerTitol>.row:nth-of-type(1)>.col>h1{
+        font-size: 60px !important;
+    }
+}
+
+.divAliments {
+    background-image: url("../../Imatges/fondoRestaurante.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+label {
+    display: inline-block;
+}
+
+.infonutri {
+    display: inline-block;
+    width: 70px;
+    border-radius: 4px;
+    text-align: center;
+    height: 40px;
+    border: 2px solid black !important;
+}
+
+select {
+    border: 2px solid black !important;
+}
+
+select.porcions {
+    display: inline-block !important;
+    max-width: 272px;
+    position: absolute;
+    margin-left: 8px !important;
+    font-size: 22px;
+    height: 40px;
+    max-height: 40px;
+    padding: 0px !important;
+    padding-left: 10px !important;
+}
+
+.ocult {
+    display: none;
+}
+
+.hrnegre {
+    background-color: rgb(0, 0, 0) !important;
+    height: 4px !important;
+    text-decoration: none;
+    opacity: 100 !important;
+}
+
+.negre {
+    color: black;
+}
+
+h1.sintop {
+    margin-top: 0px !important;
+}
+
+/* Icones guardar i favorits */
+.iconaFav,
+.iconaGuardar,
+.logo {
+    width: 10vw;
+    filter: drop-shadow(10px 10px 10px #222);
+}
+
+.nutriScore {
+    width: 16vw;
+    filter: drop-shadow(10px 10px 10px #222);
+}
+
+.abaix {
+    min-height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.rowAbaix>*,
+h1.centrat {
+    text-align: center !important;
+}
+
+.iconaFav:hover,
+.iconaGuardar:hover {
+    filter: drop-shadow(6px 6px 5px #222);
+    transform: translateY(-10px);
+    cursor: pointer;
+    border-bottom: 90px;
+    left: -20px;
+}
+
+/*
+  .iconaFav{
+    width: 30px;
+  }
+  .divCorazon{
+    position: relative;
+    display: block;
+    border-bottom: 90px;
+    height: 50px;
+    width: 40px;
+    transition: 0.3s;
+    left: -20px;
+  }
+  .iconaGuardar{
+    width: 30px;
+  }
+  .divGuardar{
+    right: -20px;
+    position: relative;
+    display: block;
+    border-bottom: 90px;
+    width: 40px;
+    height: 50px;
+    transition: 0.3s;
+  }
+  .divGuardar:hover{
+    right: -20px;
+    filter: drop-shadow(6px 6px 5px #222);
+    transform: translateY(-10px);
+    cursor: pointer;
+    position: relative;
+    display: block;
+    border-bottom: 90px;
+    height: 50px;
+  }
+
+*/
+
+.contribuidor {
+    color: black;
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 0px !important;
+}

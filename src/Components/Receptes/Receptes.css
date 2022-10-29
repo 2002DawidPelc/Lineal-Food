@@ -1,0 +1,348 @@
+.imgrecepta {
+    width: 90%;
+    border-radius: 1rem;
+    border: 0.3rem solid white;
+    margin-left: 0px !important;
+    margin-bottom: 20px !important;
+}
+
+.divrecepta {
+    text-align: left;
+}
+
+.text-align-left {
+    text-align: left !important;
+}
+
+.capital {
+    font-size: 6vh !important;
+    max-height: 8vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.generalrecepta .col-5 p {
+    font-size: 2vw;
+}
+.generalrecepta .col,
+.generalrecepta .col-3,
+.enmig {    
+    align-items: center;
+}
+
+.enmig {
+    display: flex;
+    justify-content: center;
+}
+
+.text-align-center {
+    text-align: center !important;
+    min-width: 400px !important;
+}
+
+.descripciorecepta {
+    font-size: 2vw !important;
+    max-height: 56%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.descripciorecepta, .capital {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.descripciorecepta::-webkit-scrollbar, .capital::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.noOcultarImp {
+    position: relative;
+}
+
+.noOcultarImp div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 2vmin;
+}
+
+.aliment_recepta {
+    filter: drop-shadow(10px 10px 10px #222);
+    max-height: 10vw;
+    margin: auto;
+    padding: 10px;
+}
+
+.generalrecepta {
+    background: #314755;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.generalrecepta .diari {
+    border-color: white;
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0099ff 0%, #006bb3 100%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.generalrecepta .gris {
+    border-color: white;
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.generalrecepta .diari div:nth-of-type(1) .col:nth-of-type(1){
+    min-height: 300px;
+}
+.colblanc{
+    color: white;
+}
+
+.senseborderecepta{
+    border: 0;
+}
+
+.generalrecepta .negre p{
+    color: white !important;
+}
+
+.generalrecepta .cercadorD p {
+    color: black !important;
+    margin-bottom: 0px;
+}
+.generalrecepta .btn {
+    margin: 10px;
+    font-size: 2vw;
+}
+
+.width100 p{
+    width: 100%;
+}
+
+.generalrecepta .form-group{
+    text-align: left;
+    color: white;
+    font-size: 5vmin;
+}
+
+.formafegirrecepta label {
+    padding: 0px !important;
+}
+
+.linies .row:not(:first-of-type) .col-3 {
+    display: flex;
+    align-items: center;
+}
+
+.linies .row:not(:first-of-type) .col-3 p {
+    max-width: 70%;
+}
+
+.lletradiferent *{
+    font-size: 3vmin !important;
+}
+
+.tmb {
+    font-size: 5vmin !important;
+}
+
+.botons *{
+    text-align: center !important;
+}
+
+.botons input:hover{
+    margin-bottom: 10px;
+}
+
+.generalrecepta .sintop{
+    padding: 0px !important;
+    color: white;
+    font-size: 4vw;
+}
+
+.formafegirrecepta .btn {
+    font-size: 8vmin;
+}
+
+.formafegirrecepta .btn:hover{
+    font-size: 8vmin;
+}
+
+#primerapartatreceptes .col:nth-of-type(2){
+    cursor: pointer;
+}
+
+.inseriralDiariA{
+    color: #fff;
+    background: linear-gradient(to bottom right, #0d6efd 0%, #33ccff 100%);
+    border: 3px solid white !important;
+    font-size: 2vw;
+    width: 100%;
+    margin-left: -50px;
+    border-radius: 10px !important;
+}
+
+.generalrecepta .btn-danger {
+    background: linear-gradient(to bottom right, #ff0000 0%, #ff99cc 100%);
+    border: 3px solid white !important;
+    border-radius: 10px !important;
+}
+
+.generalrecepta .btn-primary {
+    background: linear-gradient(to bottom right, #0d6efd 0%, #33ccff 100%);
+    border: 3px solid white !important;
+    border-radius: 10px !important;
+}
+
+.generalrecepta option{
+    background: #3399ff;
+}
+
+.generalrecepta .col-4{
+    padding: 10px;
+}
+
+.linies .row:nth-of-type(5) .col p, .linies .row .col-3 p {
+    font-size: 3vmin;
+    text-align: left;
+}
+
+.tal .col {
+    text-align: left !important;
+}
+
+.col-5{
+    padding: 20px;
+}
+
+.nou {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 200px;
+    margin-left: 3vw !important;
+}
+
+.nou2 {
+    position: absolute;
+    bottom: 20px;
+    width: 50% !important;
+    margin-left: 1vw;
+}
+
+.afegiraliment{
+    margin-left: 16px;
+}
+
+@media(max-width: 1540px){
+    .generalrecepta .row .col-3:nth-of-type(1){
+        width: 300px !important;
+        min-width: 10px !important;
+    }
+}
+
+@media(max-width: 1350px) {
+    .noOcultarImp p:nth-of-type(1) {
+        font-size: 4vw !important;
+    }
+    .generalrecepta svg {
+        font-size: 5vmin !important;
+    }
+    .descripciorecepta {
+        max-height: 46%;
+    }
+}
+
+@media(max-width: 1320px) {
+    .noOcultarImp p:nth-of-type(2) {
+        font-size: 2vw !important;
+    }
+}
+
+@media(max-width: 1200px) {
+    .descripciorecepta {
+        max-height: 100px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .tal .col-5 {
+        width: 100%;
+    }
+    .imgrecepta {
+        width: 60%;
+    }
+    .col-5 p, .generalrecepta svg {
+        font-size: 6vmin !important;
+    }
+    .nou, .nou2 {
+        position: relative;
+        display: inline;
+        margin-left: 0px !important;
+    }
+    .noOcultarImp {
+        width: 100%;
+    }
+    .generalrecepta .btn {
+        margin-top: 0px !important;
+    }
+    .nou2 {
+        margin-top: 36px !important;
+    }
+    .nou {
+    }
+    .noOcultarImp p:nth-of-type(2) {    
+    }
+}
+
+@media(max-width: 768px) {
+    .generalrecepta .container .row:nth-of-type(1) .col {
+        min-width: 300px;
+    }
+    .generalrecepta .row:nth-of-type(3) .col:nth-of-type(3) {
+        margin-left: -30px !important;
+    }
+    .generalrecepta .col-5, .generalrecepta .col-5 div {
+        display: block !important;
+    }
+
+    .generalrecepta .col-5 div p {
+        font-size: 4vmin !important;
+        margin-left: 10px !important;
+    }
+
+    p.afegint {
+        margin-left: 10px !important;
+        font-size: 6vmin !important;
+    }
+    .inputcurt {
+        max-height: 5vmin !important;
+    }
+
+    .generalrecepta .linies .row:not(:first-of-type) .col:nth-of-type(5), 
+    .generalrecepta .linies .row:not(:first-of-type) .col:nth-of-type(6),
+    .generalrecepta .linies .row:not(:first-of-type) .col:nth-of-type(7){
+        display: flex !important;
+    }
+}
+
+@media(max-width: 425px) {
+    .imgrecepta {
+        width: 100%;
+    }
+}
+
+
