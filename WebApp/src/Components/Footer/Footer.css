@@ -1,0 +1,85 @@
+.gran {
+    color: white;
+    background-color: black;
+    margin-top: -30px !important;
+}
+
+.pText {
+    width: 400px;
+}
+
+.imgXS {
+    width: 60%;
+}
+
+
+.footerBaix {
+    background: linear-gradient(to bottom, #000000 0%, #666666 100%);
+}
+
+.seccio {
+    margin-top: 30px;
+}
+
+
+.list-unstyled a:hover {
+    background-color: black !important;
+}
+
+.social-container {
+    background: #eee;
+    padding: 10px 10px;
+}
+
+a.social {
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.youtube {
+    color: #eb3223;
+}
+
+a.facebook {
+    color: #4968ad;
+}
+
+a.twitter {
+    color: #49a1eb;
+}
+
+a.instagram {
+    color: black;
+}
+
+.list-unstyled h5, .titolfooter {
+    font-size: 5vmin;
+    padding: 10px;
+}
+
+.resumfooter {
+    font-size: 2.5vmin;
+}
+
+.list-unstyled a {
+    font-size: 3.2vmin;
+}
+
+@media(max-width: 425px){
+    .page-footer * {
+        font-size: 4.7vmin;
+    }
+    .page-footer a {
+        font-size: 6.2vmin;
+    }
+    .titolfooter, .page-footer h5 {
+        font-size: 10vmin;
+    }
+    .page-footer h5.margear {
+        margin-top: -40px;
+    }
+}

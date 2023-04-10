@@ -1,0 +1,367 @@
+.generaldiari {
+    background-color: #1a1a1a;
+    min-height: 100vh;
+}
+
+.diari {
+    background-color: #444444;
+    border: 10px solid gray;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    max-width: none !important;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.diari p {
+    font-size: 5vmin;
+    color: white;
+    margin-bottom: 0px !important;
+}
+
+.linies .fila .col {}
+
+.linies .fila .col p {
+    font-size: 3vmin;
+    text-align: left;
+}
+
+.linies .row .col:nth-of-type(1) p {
+    text-align: left;
+}
+
+.linies .row:nth-of-type(1) .col:nth-of-type(2) p {
+    text-align: right;
+}
+
+.linies .row:nth-of-type(2) .col p,
+.linies .row:nth-of-type(3) .col p,
+.linies .row:nth-of-type(4) .col p,
+.linies .row .col-3 p {
+    font-size: 3vmin;
+    text-align: left;
+}
+
+.sensetop {
+    margin-top: 0px !important;
+}
+
+input.inputdiari {
+    height: 100px;
+    width: 400px;
+    font-size: 6vmin;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.linies:hover,
+.sobre {
+    cursor: pointer;
+}
+
+.obj2,
+.obj3 {
+    font-size: 4.5vmin !important;
+}
+
+.sub1 {
+    font-size: 4vmin !important;
+}
+
+.diari:nth-of-type(1) .row .col,
+.diari:nth-of-type(1) .row .col-6 * {
+    line-height: 70px;
+}
+
+.vermell {
+    color: red !important;
+}
+
+.verd {
+    color: #00ff00 !important;
+}
+
+.verdclar {
+    color: #4dff4d !important;
+}
+
+.linies .row:not(:first-of-type) .col:nth-of-type(8) p,
+.resum .col p {
+    color: #66ffcc;
+}
+
+.linies .row:not(:first-of-type) .col p,
+.resum .col:nth-of-type(1) p,
+.resum .col:nth-of-type(2) p,
+.resum .col:nth-of-type(3) p {
+    color: #ccffff;
+}
+
+.linies .row:not(:first-of-type) .col:nth-of-type(5) p,
+.linies .row:not(:first-of-type) .col:nth-of-type(6) p,
+.linies .row:not(:first-of-type) .col:nth-of-type(7) p,
+.resum .col:nth-of-type(4) p,
+.resum .col:nth-of-type(5) p,
+.resum .col:nth-of-type(6) p {
+    color: #ccffe6;
+}
+
+.linies .row:not(:first-of-type) .col-3 p {
+    color: #e6ffff;
+}
+
+.linies .row:not(:first-of-type) .col {
+    display: flex;
+    align-items: center;
+}
+
+.cercadorD {
+    margin-left: 0px !important;
+    margin-top: -90px;
+    margin-bottom: 20px;
+}
+
+.cercadorInputsD input {
+    border-radius: 16px 0px 0px 16px;
+}
+
+.cercadorInputsD div {
+    border-radius: 0px 16px 16px 0px;
+}
+
+.negre p {
+    color: white !important;
+}
+
+.cercadorD p {
+    color: black !important;
+    margin-bottom: 0px;
+}
+
+.afegint,
+.inputcurt {
+    font-size: 5vmin !important;
+}
+
+.inputcurt {
+    display: inline;
+    width: 200px;
+    border-radius: 16px;
+    height: 50px;
+    border: 0.3vmin solid black;
+}
+
+.dreta {
+    text-align: right !important;
+    width: 100%;
+}
+
+.crosseliminar {
+    font-size: 50px;
+    color: #ff4d4d;
+}
+
+.resum * {
+    font-size: 2.2vw !important;
+}
+
+.diari .gris {
+    background-color: #808080 !important;
+    margin: 10px !important;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.columna6cercador {
+    min-width: 700px;
+    margin: auto;
+    padding: 0px !important;
+}
+
+.columna6cercador p {
+    font-size: 10vmin;
+}
+
+svg {
+    font-size: 7vmin !important;
+}
+
+.mida1 {
+    font-size: 7vmin !important;
+}
+
+.mida2 {
+    font-size: 13vmin !important;
+    margin-top: -0.6vmin;
+}
+
+@media(max-width: 1320px) {
+    .linies p {
+        font-size: 1.4vw !important;
+    }
+}
+
+@media(max-width: 917px) {
+    .columna6cercador {
+        min-width: 76vw;
+    }
+
+    .columna6cercador p {
+        font-size: 8vmin;
+    }
+}
+
+@media(max-width: 768px) {
+    .linies .row:not(:first-of-type) .col:nth-of-type(5),
+    .linies .row:not(:first-of-type) .col:nth-of-type(6),
+    .linies .row:not(:first-of-type) .col:nth-of-type(7){
+        display: none;
+    }
+
+    .especial .col-3{
+        margin-left: -4vw;
+    }
+    .especial .col p{
+        padding-right: 6px;
+    }
+
+    .diari .gris {
+        padding: 5px !important;
+        margin: 0px !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .columna6cercador {
+        min-width: 60vw;
+        margin: auto;
+    }
+
+    .columna6cercador p {
+        margin-bottom: 10px !important;
+    }
+
+    #avui {
+        font-size: 3.6vmin;
+        padding: 0px;
+        text-align: center;
+    }
+
+    input.inputdiari {
+        height: 6vh;
+        width: 30vw;
+    }
+
+    .diari {
+        padding: 5px;
+    }
+
+    .resum .col:nth-of-type(4),
+    .resum .col:nth-of-type(5),
+    .resum .col:nth-of-type(6),
+    .resum .col:nth-of-type(7),
+    .gris div:nth-of-type(1),
+    .gris div:nth-of-type(5),
+    .gris div:nth-of-type(6),
+    .gris div:nth-of-type(7) {
+        display: none;
+    }
+
+    .resum * {
+        font-size: 5vw !important;
+    }
+
+    .gris .col {
+        padding: 4px !important;
+    }
+
+    .diari .gris {
+        border-radius: 10px !important;
+    }
+
+    .lineheight p {
+        line-height: 50px;
+        font-size: 6vmin;
+    }
+
+    .cercadorInputsD input {
+        width: 100%;
+    }
+
+    .resultatsDades {
+        max-width: 76vw !important;
+    }
+
+    .itemDades {
+        min-height: 30px !important;
+    }
+
+    .noOcultar {
+        display: block !important;
+    }
+
+    .linies p {
+        font-size: 3vw !important;
+    }
+
+    .noOcultarImp p {
+        font-size: 6vmin !important;
+    }
+
+    .afegint {
+        min-width: 300px;
+        text-align: left !important;
+    }
+
+    .inputcurt {
+        max-width: 10vw;
+        height: 4vh;
+    }
+
+    svg {
+        font-size: 5vmin !important;
+    }
+
+    #accept1,
+    #accept2,
+    #accept3,
+    #accept4 {
+        font-size: 9vmin !important;
+    }
+}
+
+@media(max-width: 425px) {
+    .colObjectiu p {
+        margin-bottom: 0px;
+    }
+
+    .lineheight p {
+        line-height: 30px;
+        font-size: 6vmin;
+    }
+
+    .cercadorInputsD input {
+        max-width: 66vw;
+        font-size: 5vmin !important;
+    }
+
+    .inputcurt {
+        max-width: 10vw;
+        height: 2.6vh;
+    }
+}
+
+.generaldiari .footerBaix {
+    margin-bottom: -72px !important;
+}
+
+canvas *{
+    color: white;
+}
+
+.titolGrafic{
+    text-align: center;
+    margin-bottom: -200px;
+}

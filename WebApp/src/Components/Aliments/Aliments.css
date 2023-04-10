@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster |Montserrat&display=swap');
+
+@font-face {
+  font-family: principal;
+  src: url("KGRedHands.ttf");
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*TITOL*/
+
+.divTitol {
+  margin-top: 50px;
+  margin-bottom: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titolGran {
+  font-size: 300px;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+div.fonsRestaurants {
+  min-height: 100vh;
+  background-color: #222;
+  background-image: url("../../Imatges/restaurantes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.divTitol p {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  -o-background-clip: text;
+  -o-text-fill-color: transparent;
+  filter: drop-shadow(5px 5px 10px #fff);
+}
+
+.kfc p {
+  background-image: url("../../Imatges/fondoKFC.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.mcdonalds p {
+  background-image: url("../../Imatges/fondoMC.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.burgerking p {
+  background-image: url("../../Imatges/fondoBK.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* ALIMENTS */
+.colAlments {
+  min-width: 340px;
+  height: 260px;
+  transition: 0.4s;
+  margin: 24px;
+  margin-bottom: 160px !important;
+  text-align: center;
+  background-color: #d5fefd;
+  background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%) !important;
+  background: white;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+  animation: name-of-animation 3s ease;
+}
+
+@keyframes name-of-animation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.img1 {
+  animation: img1 2s;
+  filter: drop-shadow(10px 10px 10px #222);
+}
+
+@keyframes img1 {
+  from {
+    margin-top: -500px;
+  }
+
+  to {
+    margin-top: 0px;
+  }
+}
+
+.prova {
+  position: relative;
+  top: -80px;
+}
+
+.colAlments:hover {
+  box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-80px);
+  margin-bottom: 0px !important;
+}
+
+.img1 {
+  max-height: 200px;
+}
+
+.titol {
+  font-weight: bold;
+  margin: 0;
+  font-size: 26px;
+  width: 100%;
+}
+
+.informacio {
+  margin: 0px;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  justify-content: center;
+  top: 10px;
+  color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.informacio:hover {
+  color: #222;
+  background-color: white;
+}
+
+@keyframes dv2 {
+  from {
+    margin-top: 500px;
+  }
+
+  to {
+    margin-top: 0px;
+  }
+}
+
+p.infoAliment {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 90% !important;
+  /*max-width: 1620px !important;*/
+}
+
+.divInfoNegre {
+  display: none;
+  color: white;
+  width: 95%;
+  height: 100px;
+  top: 140px;
+  position: absolute;
+  background: linear-gradient(to bottom, #303030a2 5%, transparent 100%);
+}
+
+.divGranIcones {
+  position: relative;
+  top: -80px;
+  display: flex;
+  justify-content: center;
+  animation: dv2 2s;
+}
+
+/* INCISO */
+
+.top {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seleccionarR {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divSelectR select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.divSelectR select::-ms-expand {
+  display: none;
+}
+
+.divSelectR {
+  margin: 40px;
+  width: 150px;
+  position: relative;
+}
+
+.divSelectR select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 7px 10px;
+  height: 42px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #F0F0F0;
+  color: #7B7B7B;
+  font-size: 1em;
+  color: #999;
+  font-family:
+    'Quicksand', sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.divSelectR select:hover {
+  background: #855f274d;
+}
+
+/*
+Creamos la fecha que aparece a la izquierda del select.
+Realmente este elemento es un cuadrado que sólo tienen
+dos bordes con color y que giramos con transform: rotate(-45deg);
+*/
+.divSelectR i {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 13px);
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-left: 4px solid #855F27;
+  border-bottom: 4px solid #855F27;
+  transform: rotate(-45deg);
+  /* Giramos el cuadrado */
+  transition: all 0.25s ease;
+}
+
+.divSelectR:hover i {
+  margin-top: 3px;
+}
+
+/* ACABA SELECT */
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .colAlments {
+    margin-bottom: 200px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .titolGran {
+    font-size: 120px;
+  }
+
+  .colAlments:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5) !important;
+    transform: translateY(0px) !important;
+    margin-bottom: 160px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .titolGran {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 500px) {
+  .titolGran {
+    font-size: 70px;
+  }
+
+  .colAlments {
+    margin: 6px;
+  }
+}
+
+@media (max-width: 500px) {
+  .titolGran {
+    font-size: 70px;
+    margin-bottom: 0px;
+  }
+
+  .colAlments {
+    margin: 3px;
+    margin-bottom: 180px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .divTitol p {
+    filter: drop-shadow(2px 2px 3px #fff);
+  }
+
+  div.fonsRestaurants {
+    background-size: 180%;
+    background-attachment: fixed;
+    background-position: -80px;
+  }
+}
+
+@media (max-width: 400px) {
+  .colAlments {
+    min-width: 296px;
+  }
+
+  .img1 {
+    max-height: 180px;
+  }
+
+  .divInfoNegre {
+    top: 170px;
+  }
+
+  .alinear {
+    margin-top: -30px !important;
+  }
+
+  .divInfoNegre {
+    margin-top: -30px;
+  }
+}
+
+.alinear {
+  height: 100px;
+  line-height: 100px;
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+
+.alinear p {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+}
